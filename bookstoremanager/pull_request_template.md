@@ -8,7 +8,6 @@ A few sentences describing the overall goals of the pull request's commits.
 - [ ] Tests
 - [ ] Documentation
 
-
 ## Deploy Notes
 Notes regarding deployment the contained body of work.  These should note any
 db migrations, etc.
@@ -17,14 +16,5 @@ db migrations, etc.
 Outline the steps to test or reproduce the PR here.
 
 ```sh
-git pull --prune
-git checkout <feature_branch>
-bundle; script/server
+mvn spring-boot:run
 ```
-
-1.
-
-## Impacted Areas in Application
-List general components of the application that this PR will affect:
-
-*
